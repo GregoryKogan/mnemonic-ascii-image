@@ -1,13 +1,11 @@
-import random
-from generator import RandomImageGenerator
-import ascii_magic
+from mnemonic import Mnemonic
 
 
 def main():
-    gen = RandomImageGenerator()
-    img = gen.generate((60, 40), random.randint(100, 999))
-    my_art = ascii_magic.obj_from_image(img)
-    my_art.to_terminal(columns=60)
+    words = ["Hello", "world", "!"]
+    for word in words:
+        print(f"Seed: '{word}'")
+        Mnemonic.display_ascii_image(size=(60, 40), seed=word, char="█")
 
 
 if __name__ == "__main__":
