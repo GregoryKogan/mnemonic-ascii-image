@@ -1,4 +1,7 @@
 # Random-image-gen
+
+Prototype of [mnemonic-pictures](https://github.com/GregoryKogan/mnemonic-pictures)
+
 Heavily inspired by https://github.com/nareto/randimage
 
 <p align="center">
