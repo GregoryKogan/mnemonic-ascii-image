@@ -1,4 +1,4 @@
-# Random-image-gen
+# mnemonic-ascii-image
 
 Prototype of [mnemonic-pictures](https://github.com/GregoryKogan/mnemonic-pictures)
 
